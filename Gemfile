@@ -64,3 +64,4 @@ gem "mini_magick"
 gem "figaro"
 gem "fog-aws"
 gem 'carrierwave-aws'
+gem 'stripe'
