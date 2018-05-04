@@ -26,7 +26,7 @@ class Instructor::LessonsController < ApplicationController
   end
 
   def current_lesson
-    @current_lesson ||= Lesson.find(params[:section_id])
+    @current_lesson ||= Lesson.find(params[:id])
   end
 
 
